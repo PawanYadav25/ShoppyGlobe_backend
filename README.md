@@ -10,5 +10,5 @@ We have implmented
 3. Product fetching from MongoDB
 4. Fetch the product with it's ID
 5. Add the item CART, only valid token user able to add the product in cart.
-6. Increase the Quantity of the cart product, only valid token user able to add the product in cart.
-7. Remove the product from the cart, only valid token user able to add the product in cart.
+6. Increase the Quantity of the cart product, only valid token user able to increase the count of the products.
+7. Remove the product from the cart, only valid token user able to remove the product from the cart.
