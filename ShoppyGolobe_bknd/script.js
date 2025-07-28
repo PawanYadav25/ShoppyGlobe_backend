@@ -5,7 +5,7 @@ import userRouter from "./Router/Router.js"
 const app = new express;  // initialise the Express
 
 //Connect the DB using Mongoose and also update the network to 0.0.0.0 so every one can access
-mongoose.connect('mongodb+srv://pawanpy1999:p1tutdr8bO3Z2HgH@cluster0.stgwlmn.mongodb.net/').
+mongoose.connect('MongoURL').
 then(()=>{
     console.log("Database connect sucessfully")
 }).catch((err)=>{console.log(err)})
